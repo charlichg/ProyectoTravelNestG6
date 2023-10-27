@@ -1,0 +1,21 @@
+﻿.table table-striped {
+    /* Estilos personalizados para la tabla con la clase "table-striped" */
+    /* Por ejemplo, puedes cambiar el color de fondo de las filas alternas */
+    background-color: #f9f9f9;
+    margin-top: 800px;
+}
+
+    .table-striped tbody tr:nth-child(odd) {
+        /* Estilos para las filas impares */
+        background-color: #f0f0f0;
+    }
+
+    .table-striped tbody tr:hover {
+        /* Estilos para cuando el cursor se coloca sobre una fila */
+        background-color: #eaeaea;
+    }
+form {
+    width: 116.5%; /* Ajusta el valor según el tamaño deseado */
+    margin: 0 auto; /* Centra el formulario horizontalmente en la página */
+    margin-left: -7.85%; /* Ajusta el valor según el tamaño de aumento hacia la izquierda que desees */
+}
