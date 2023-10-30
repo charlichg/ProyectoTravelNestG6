@@ -1,8 +1,14 @@
 ﻿.nest-text {
     color: #7AB730; /* Cambia el color a rojo */
 }
+
 .container-fluid.bg-dark {
     max-width: 100%; /* Ajusta el valor del ancho máximo según tus necesidades */
     margin: 0 auto; /* Centra el contenido del footer en la página */
     width: 100%; /* Ajusta el valor según el ancho deseado (porcentaje o valor en píxeles) */
+    margin-top: 230px;
+}
+
+.body {
+    margin-top: 530px;
 }

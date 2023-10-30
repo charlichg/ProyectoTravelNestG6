@@ -1,13 +1,19 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ModificarCalendarioReserva.aspx.cs" Inherits="ProyectoTravelNestG6.pages.ModificarCalendarioReserva" MasterPageFile="~/SitePublic.master" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SitePublic.Master" AutoEventWireup="true" CodeBehind="ModificarCalendarioReserva.aspx.cs" Inherits="ProyectoTravelNestG6.Formulario_web11" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <div class="container">
   <h1 class="title">Configura tu calendario</h1>
      <link href="../styles/generales/ModificarCalendarioReserva.css" rel="stylesheet" />
+      </head>
+    <body>
   <h3 class="subtitle">Utiliza la configuración de disponibilidad para personalizar cómo y cuándo quieres compartir tu espacio.</h3>
 
 <div class="row">
@@ -54,4 +60,7 @@
   <div class="text-center">
     <button type="submit" class="btn btn-success btn-lg" id="btnGuardar">Guardar</button>
   </div>
-    </asp:Content>
+  </body>
+ </html>
+</asp:Content>
+

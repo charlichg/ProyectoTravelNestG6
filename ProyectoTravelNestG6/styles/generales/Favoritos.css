@@ -84,3 +84,42 @@
         flex-direction: column;
     }
 }
+.add-more-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px; /* adjust this to make the button larger or smaller */
+    height: 150px; /* adjust this to make the button larger or smaller */
+    background-color: white;
+    border: 2px solid #000; /* adjust this to make the border thicker or thinner */
+    border-radius: 20px; /* adjust this to make the corners more or less rounded */
+    font-size: 16px;
+    color: #212529;
+    margin-top: 100px;
+    transition: 0.3s; /* this adds a transition effect when the button state changes */
+}
+
+    .add-more-button i {
+        margin-right: 5px;
+    }
+
+    .add-more-button:hover {
+        background-color: #f8f9fa;
+        color: #212529;
+        transform: scale(1.1); /* this makes the button slightly larger when hovered over */
+    }
+
+@media (max-width: 767px) {
+    .add-more-button {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 575px) {
+    .add-more-button {
+        width: 90px;
+        height: 90px;
+    }
+}
+
