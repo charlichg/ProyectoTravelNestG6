@@ -1,12 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Pantalla Politicas.aspx.cs" Inherits="ProyectoTravelNestG6.pages.Pantalla_Politicas"  MasterPageFile="~/SitePublic.master" %>
-
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SitePublic.Master" AutoEventWireup="true" CodeBehind="Pantalla Politicas.aspx.cs" Inherits="ProyectoTravelNestG6.Formulario_web12" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
-    
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <!DOCTYPE html>
+<!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -15,11 +13,9 @@
         <link href="../styles/generales/Politicas.css" rel="stylesheet" />
     </head>
     <body>
-   
-    <div class="titulo">Nuestras políticas de los servicios</div>
-        
-</body>
-    <body>
+        <div class="titulo">Nuestras políticas de los servicios:</div>
+        </body>
+
         
    
         <div id="rectangle-271">
@@ -35,40 +31,87 @@
         <!-- Contenido del rectángulo 270 -->
     </div>
 
-       <div id="mi-banco" class="boton">
-         Mi Banco
+        <div id="mi-banco" class="boton" onclick="redireccionarAMiBanco()">
+            Mi Banco.
         </div>
 
-        <div id="depositos-seguridad">
-            Depósitos de seguridad
+        <div id="depositos-seguridad" class="boton" onclick="redireccionarADepositosSeguridad()">
+            Depósitos de seguridad.
         </div>
-        <div id="evitar-fraude">
-            Evitar el fraude, la estafa y el abuso
+
+        <div id="evitar-fraude" class="boton" onclick="redireccionarAEvitarFraude()">
+            Evitar el fraude, la estafa y el abuso.
         </div>
-        <div id="seguridad">
-            Seguridad
-    </div>
-     <div id="seguridad-anfitriones-huéspedes">
-            Seguridad de los anfitriones y huéspedes
-    </div>
-    <div id="Contenido--reseñas">
-        Contenido y reseñas
-    </div>
-     <div id="Contenido--reseñas2">
-        Contenido restringido
-    </div>
-     <div id="Contenido--reseñas3">
-        Escribir reseñas relevantes e imparciales
-    </div>
 
-    <div id="cancelaciones-reembolsos">
-       Cancelaciones y reembolsos
-    </div>
-     <div id="cancelaciones-reembolsos2">
-       Política de reembolso y asistencia para cambio de <br>reservación
-    </div>
+        <div id="seguridad" class="boton" onclick="redireccionarASeguridad()">
+            Seguridad.
+        </div>
 
+        <div id="seguridad-anfitriones-huéspedes" class="boton" onclick="redireccionarASeguridadAnfitrionesHuespedes()">
+            Seguridad de los anfitriones y huéspedes.
+        </div>
+
+        <div id="Contenido--reseñas" class="boton" onclick="redireccionarAContenidoReseñas()">
+            Contenido y reseñas.
+        </div>
+
+        <div id="Contenido--reseñas2" class="boton" onclick="redireccionarAContenidoReseñas2()">
+            Contenido restringido.
+        </div>
+
+        <div id="Contenido--reseñas3" class="boton" onclick="redireccionarAContenidoReseñas3()">
+            Escribir reseñas relevantes e imparciales.
+        </div>
+
+        <div id="cancelaciones-reembolsos" class="boton" onclick="redireccionarACancelacionesReembolsos()">
+            Cancelaciones y reembolsos.
+        </div>
+
+        <div id="cancelaciones-reembolsos2" class="boton" onclick="redireccionarACancelacionesReembolsos2()">
+            Política de reembolso y asistencia.
+        </div>
+
+        <script>
+            function redireccionarAMiBanco() {
+                window.location.href = "PaginaMiBanco.aspx";
+            }
+
+            function redireccionarADepositosSeguridad() {
+                window.location.href = "PaginaDepositosSeguridad.aspx";
+            }
+
+            function redireccionarAEvitarFraude() {
+                window.location.href = "PaginaEvitarFraude.aspx";
+            }
+
+            function redireccionarASeguridad() {
+                window.location.href = "PaginaSeguridad.aspx";
+            }
+
+            function redireccionarASeguridadAnfitrionesHuespedes() {
+                window.location.href = "PaginaSeguridadAnfitrionesHuespedes.aspx";
+            }
+
+            function redireccionarAContenidoReseñas() {
+                window.location.href = "PaginaContenidoReseñas.aspx";
+            }
+
+            function redireccionarAContenidoReseñas2() {
+                window.location.href = "PaginaContenidoReseñas2.aspx";
+            }
+
+            function redireccionarAContenidoReseñas3() {
+                window.location.href = "PaginaContenidoReseñas3.aspx";
+            }
+
+            function redireccionarACancelacionesReembolsos() {
+                window.location.href = "PaginaCancelacionesReembolsos.aspx";
+            }
+
+            function redireccionarACancelacionesReembolsos2() {
+                window.location.href = "PaginaCancelacionesReembolsos2.aspx";
+            }
+        </script>
     </body>
     </html>
 </asp:Content>
-

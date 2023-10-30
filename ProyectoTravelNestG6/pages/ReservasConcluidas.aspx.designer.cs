@@ -7,11 +7,11 @@
 // </generado automáticamente>
 //------------------------------------------------------------------------------
 
-namespace ProyectoTravelNestG6.pages
+namespace ProyectoTravelNestG6
 {
 
 
-    public partial class ReservacionesConcluidas
+    public partial class Formulario_web14
     {
 
         /// <summary>

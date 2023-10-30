@@ -1,4 +1,4 @@
-﻿/* Rectangle 271 */
+﻿
 #rectangle-271 {
     position: absolute;
     width: 597px;
@@ -6,27 +6,27 @@
     left: 100px;
     top: 160px;
     background: rgba(149, 207, 72, 0.4);
-    border-radius: 8px; /* Añade bordes redondos con un radio de 8px */
+    border-radius: 8px;  Añade bordes redondos con un radio de 8px 
 }
 
 .titulo {
     position: absolute;
-    left: 5.06%;
+    left: 8.06%;
     right: 73.31%;
-    top: 8.53%;
+    top: 11%;
     bottom: 83.52%;
     font-family: 'Comfortaa';
     font-style: normal;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 24px;
     line-height: 100px;
     color: #000000;
-    white-space: nowrap; /* Evita el salto de línea */
+    white-space: nowrap;  Evita el salto de línea 
    
    
 }
 
-/* Mi Banco */
+
 #mi-banco {
     position: absolute;
     width: 710px;
@@ -74,8 +74,8 @@
 /* Estilo del botón */
 .boton {
     padding: 10px 20px;
-    color: #fff; /* Color del texto del botón */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    color: #fff;  Color del texto del botón 
+    cursor: pointer;  Cambia el cursor al pasar sobre el botón 
 }
 
 /* Rectangle 269 */
@@ -86,17 +86,17 @@
     left: 800px;
     top: 160px;
     background: rgba(149, 207, 72, 0.4);
-    border-radius: 8px; /* Añade bordes redondos con un radio de 8px */
+    border-radius: 8px;  Añade bordes redondos con un radio de 8px 
 }
 
 #rectangle-270 {
-    position: absolute;
+    position: relative;
     width: 597px;
     height: 207px;
-    left: 100px;
-    top: 400px;
+    left: -10px;
+    top: 290px;
     background: rgba(149, 207, 72, 0.4);
-    border-radius: 8px; /* Añade bordes redondos con un radio de 8px */
+    border-radius: 8px;
 }
 #rectangle-272 {
     position: absolute;
@@ -105,7 +105,7 @@
     left: 800px;
     top: 400px;
     background: rgba(149, 207, 72, 0.4);
-    border-radius: 8px; /* Añade bordes redondos con un radio de 8px */
+    border-radius: 8px;  Añade bordes redondos con un radio de 8px 
 }
 
 /* Seguridad */

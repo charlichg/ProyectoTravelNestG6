@@ -13,5 +13,10 @@ namespace ProyectoTravelNestG6.pages
         {
 
         }
+
+        protected void btnAddMore_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

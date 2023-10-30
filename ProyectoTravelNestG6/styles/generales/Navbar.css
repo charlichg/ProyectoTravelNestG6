@@ -2,6 +2,7 @@
 
 body {
     background: white;
+   
 }
 
 nav .logo {
@@ -59,6 +60,12 @@ nav .logo {
     background-color: #3399CC;
     color: red;
     border-radius: 10px;
+}
+.container-fluid.bg-dark {
+    max-width: 100%; /* Ajusta el valor del ancho máximo según tus necesidades */
+    margin: 0 auto; /* Centra el contenido del footer en la página */
+    width: 100%; /* Ajusta el valor según el ancho deseado (porcentaje o valor en píxeles) */
+    margin-top: 230px;
 }
 
 @media (max-width: 768px) {
