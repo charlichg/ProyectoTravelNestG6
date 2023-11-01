@@ -45,6 +45,12 @@
                 <li>
                     <a class="dropdown-item" href="#">Lista de Favoritos</a>
                 </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Notificaciones</a>
+                </li>
+                 <li>
+                    <a class="dropdown-item" href="#">Cuenta</a>
+                </li>
             </ul>
         </li>
     </ul>

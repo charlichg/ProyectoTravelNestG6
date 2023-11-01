@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SitePublic.Master" AutoEventWireup="true" CodeBehind="RecepcionMensajesDenuncias.aspx.cs" Inherits="ProyectoTravelNestG6.Formulario_web13" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SitePublic.Master" AutoEventWireup="true" CodeBehind="RecepcionMensajes.aspx.cs" Inherits="ProyectoTravelNestG6.RecepcionMensajes" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
@@ -20,8 +20,8 @@
             <div class="col-md-4">
                 <h2>Seleccionar Categoría</h2>
                 <div class="btn-group" role="group">
-                    <button class="btn btn-secondary category-button" id="category-messages">Mensajes</button>
-                    <button class="btn btn-secondary category-button" id="category-reports">Denuncias</button>
+                    <button class="btn btn-secondary category-button" id="category-messages">Bandeja de Mensajes</button>
+                    <%--<button class="btn btn-secondary category-button" id="category-reports">Denuncias</button>--%>
                 </div>
                 <div class="form-group mt-3">
                     <button class="btn btn-secondary user-button" id="user1">Usuario 1</button>

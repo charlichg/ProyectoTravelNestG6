@@ -67,8 +67,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="pages\RecepcionDenuncias.aspx" />
     <Content Include="pages\ReservasConcluidas.aspx" />
-    <Content Include="pages\RecepcionMensajesDenuncias.aspx" />
+    <Content Include="pages\RecepcionMensajes.aspx" />
     <Content Include="pages\Pantalla Politicas.aspx" />
     <Content Include="pages\ModificarCalendarioReserva.aspx" />
     <Content Include="pages\DatosPersonales.aspx" />
@@ -87,6 +88,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="pages\RecepcionDenuncias.aspx.cs">
+      <DependentUpon>RecepcionDenuncias.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\RecepcionDenuncias.aspx.designer.cs">
+      <DependentUpon>RecepcionDenuncias.aspx</DependentUpon>
+    </Compile>
     <Compile Include="pages\ReservasConcluidas.aspx.cs">
       <DependentUpon>ReservasConcluidas.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -94,12 +102,12 @@
     <Compile Include="pages\ReservasConcluidas.aspx.designer.cs">
       <DependentUpon>ReservasConcluidas.aspx</DependentUpon>
     </Compile>
-    <Compile Include="pages\RecepcionMensajesDenuncias.aspx.cs">
-      <DependentUpon>RecepcionMensajesDenuncias.aspx</DependentUpon>
+    <Compile Include="pages\RecepcionMensajes.aspx.cs">
+      <DependentUpon>RecepcionMensajes.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="pages\RecepcionMensajesDenuncias.aspx.designer.cs">
-      <DependentUpon>RecepcionMensajesDenuncias.aspx</DependentUpon>
+    <Compile Include="pages\RecepcionMensajes.aspx.designer.cs">
+      <DependentUpon>RecepcionMensajes.aspx</DependentUpon>
     </Compile>
     <Compile Include="pages\Pantalla Politicas.aspx.cs">
       <DependentUpon>Pantalla Politicas.aspx</DependentUpon>
