@@ -11,7 +11,7 @@ namespace ProyectoTravelNestG6
 {
 
 
-    public partial class Formulario_web14
+    public partial class ReservasConcluidas
     {
 
         /// <summary>
