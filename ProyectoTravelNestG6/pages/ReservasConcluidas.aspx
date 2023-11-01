@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SitePublic.Master" AutoEventWireup="true" CodeBehind="ReservasConcluidas.aspx.cs" Inherits="ProyectoTravelNestG6.Formulario_web14" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SitePublic.Master" AutoEventWireup="true" CodeBehind="ReservasConcluidas.aspx.cs" Inherits="ProyectoTravelNestG6.ReservasConcluidas" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
