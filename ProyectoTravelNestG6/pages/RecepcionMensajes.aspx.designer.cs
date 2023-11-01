@@ -11,7 +11,7 @@ namespace ProyectoTravelNestG6
 {
 
 
-    public partial class Formulario_web13
+    public partial class RecepcionMensajes
     {
     }
 }
